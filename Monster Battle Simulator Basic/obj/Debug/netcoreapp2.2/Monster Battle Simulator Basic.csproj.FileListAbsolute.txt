@@ -1,0 +1,10 @@
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simulator Basic\bin\Debug\netcoreapp2.2\Monster Battle Simulator Basic.deps.json
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simulator Basic\bin\Debug\netcoreapp2.2\Monster Battle Simulator Basic.runtimeconfig.json
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simulator Basic\bin\Debug\netcoreapp2.2\Monster Battle Simulator Basic.runtimeconfig.dev.json
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simulator Basic\bin\Debug\netcoreapp2.2\Monster Battle Simulator Basic.dll
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simulator Basic\bin\Debug\netcoreapp2.2\Monster Battle Simulator Basic.pdb
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simulator Basic\obj\Debug\netcoreapp2.2\Monster Battle Simulator Basic.csproj.CoreCompileInputs.cache
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simulator Basic\obj\Debug\netcoreapp2.2\Monster Battle Simulator Basic.AssemblyInfoInputs.cache
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simulator Basic\obj\Debug\netcoreapp2.2\Monster Battle Simulator Basic.AssemblyInfo.cs
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simulator Basic\obj\Debug\netcoreapp2.2\Monster Battle Simulator Basic.dll
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simulator Basic\obj\Debug\netcoreapp2.2\Monster Battle Simulator Basic.pdb
