@@ -1,0 +1,7 @@
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simple\obj\Release\Monster Battle Simple.csprojAssemblyReference.cache
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simple\obj\Release\Monster Battle Simple.csproj.CoreCompileInputs.cache
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simple\bin\Release\Monster Battle Simple.exe.config
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simple\bin\Release\Monster Battle Simple.exe
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simple\bin\Release\Monster Battle Simple.pdb
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simple\obj\Release\Monster Battle Simple.exe
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Simple\obj\Release\Monster Battle Simple.pdb
