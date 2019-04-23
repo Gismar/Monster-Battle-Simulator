@@ -18,7 +18,7 @@ namespace Battle
         private Random _random;
 
         /// <summary>
-        /// Custome constructor, used for initializing data after creating object
+        /// Custom constructor, used for initializing data after creating object
         /// </summary>
         public virtual IMonster Initialize(float health, float power, float defence, float speed)
         {
@@ -55,37 +55,38 @@ namespace Battle
 
                     case int n when n >= 115:
                         ConsoleExtras.ColorLine($"{Name} dealt {damage:0.0} critical damage to {target.Name}", ConsoleColor.Yellow);
-                        target.TakeDamage(damage, this, false);
+                        target.TakeDamage(damage, this);
                         break;
 
                     case int n when n <= 85:
                         ConsoleExtras.ColorLine($"{Name} fumbled and dealt {damage:0.0} damage to {target.Name}", ConsoleColor.DarkYellow);
-                        target.TakeDamage(damage, this, false);
+                        target.TakeDamage(damage, this);
                         break;
 
                     default:
                         ConsoleExtras.ColorLine($"{Name} dealt {damage:0.0} damage to {target.Name}");
-                        target.TakeDamage(damage, this, false);
+                        target.TakeDamage(damage, this);
                         break;
                 }
             }
         }
 
         /// <summary>
-        /// Takes damage.
+        /// Calculates how much damage will be dealt with defence.
         /// </summary>
-        public virtual void TakeDamage(float damage, IMonster attacker, bool isTrue)
+        /// <param name="damage">Raw, unmitigated damage</param>
+        /// <param name="attacker">IMonster that is dealing the damage</param>
+        /// <param name="isTrueDamage">Ignore Defence calculation</param>
+        public virtual void TakeDamage(float damage, IMonster attacker, bool isTrueDamage = false)
         {
-            float mitigateDamage = isTrue ? damage : damage * (100f / (100f + Defence));
+            float mitigateDamage = isTrueDamage ? damage : damage * (100f / (100f + Defence));
             Health = Math.Max(Health - mitigateDamage, 0f);
 
             if (!IsAlive)
                 ConsoleExtras.ColorLine($"{attacker.Name} HAS SLAIN {Name}!!", ConsoleColor.DarkRed);
         }
-         /// <summary>
-         /// Custom .ToString() method
-         /// </summary>
-        public virtual string GetStats()
+
+        public override string ToString()
             => $"{Name}: {Health:0.0} Health, {Power:0.0} Power, {Defence:0.0} Defence, {Speed:0.0} Speed";
 
     }

@@ -1,0 +1,7 @@
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Bonus\bin\Debug\Monster Battle Bonus.exe.config
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Bonus\bin\Debug\Monster Battle Bonus.exe
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Bonus\bin\Debug\Monster Battle Bonus.pdb
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Bonus\obj\Debug\Monster Battle Bonus.csprojAssemblyReference.cache
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Bonus\obj\Debug\Monster Battle Bonus.csproj.CoreCompileInputs.cache
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Bonus\obj\Debug\Monster Battle Bonus.exe
+D:\c# Testing\Monster-Battle-Simulator\Monster Battle Bonus\obj\Debug\Monster Battle Bonus.pdb

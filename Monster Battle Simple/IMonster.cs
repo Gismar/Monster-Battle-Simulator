@@ -26,9 +26,8 @@
         /// </summary>
         (int health, int power, int defence, int speed) Max { get; }
 
-        void TakeDamage(float damage, IMonster attacker, bool isTrue);
+        void TakeDamage(float damage, IMonster attacker, bool isTrueDamage = false);
         void Attack(IMonster target);
         IMonster Initialize(float health, float power, float defence, float speed);
-        string GetStats();
     }
 }
